@@ -1,9 +1,10 @@
 :root {
+  /* Color tokens */
   --color-primary: #2C2C2C;
   --color-neutral: #E3E3E3;
   --color-subtle: rgba(255,255,255,0);
   --color-background: #FFFFFF;
-  --color-primary-text: #000000;
+  --color-primary-text: hsl(0, 0%, 0%);
   --color-secondary-text: #757575;
   --color-accent: #5B4FCF;
   --color-text-brand-on-brand: #5D4FCF;
@@ -11,17 +12,18 @@
   --color-border-neutral-secondary: #5B4FCF;
   --color-accent-subtle: rgba(103,80,164,0.1);
   --color-border-focus: rgba(148,163,184);
+
+    /* Spacing tokens */
   --spacing-xs:4px;
   --spacing-sm:8px;
   --spacing-m:16px;
   --spacing-ml:20px;
   --spacing-l:24px;
   --spacing-xl:28px;
+  
+  /* Font size tokens */
   --body-md:16px;
-
-
-
-
+  --heading-md:24px;
 }
 
 
