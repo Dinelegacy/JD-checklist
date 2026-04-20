@@ -1,0 +1,14 @@
+.primary, .neutral, .subtle {
+    padding: var(--spacing-sm);
+}
+
+.primary {
+    background-color: var(--color-primary);
+}
+.neutral {
+    background-color: gray;
+}
+
+.subtle {
+    background-color: transparent;
+}
