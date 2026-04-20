@@ -1,0 +1,32 @@
+[11:07:27.368] [INFO] storybook v10.3.5
+[11:07:27.736] [DEBUG] Getting package.json info for /Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/package.json...
+[11:07:29.198] [WARN] 🚨 Unable to index ./src/stories/Button.stories.ts:
+  TypeError: Duplicate declaration "Button"
+  54 | };
+  55 |
+> 56 | export const Button: Story = {
+     |              ^^^^^^^^^^^^^
+  57 |   args: {
+  58 |     primary: false,
+  59 |     label: "Button"
+    at File2.buildCodeFrameError (file:///Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/node_modules/storybook/dist/_node-chunks/chunk-JXXWBFBF.js:33320:16)
+    at _Scope.checkBlockScopedCollisions (file:///Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/node_modules/storybook/dist/_node-chunks/chunk-JXXWBFBF.js:24202:31)
+    at _Scope.registerBinding (file:///Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/node_modules/storybook/dist/_node-chunks/chunk-JXXWBFBF.js:24286:20)
+    at _Scope.registerDeclaration (file:///Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/node_modules/storybook/dist/_node-chunks/chunk-JXXWBFBF.js:24245:18)
+    at Object.BlockScoped (file:///Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/node_modules/storybook/dist/_node-chunks/chunk-JXXWBFBF.js:24094:83)
+    at Object.newFn (file:///Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/node_modules/storybook/dist/_node-chunks/chunk-JXXWBFBF.js:23521:21)
+    at NodePath._call (file:///Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/node_modules/storybook/dist/_node-chunks/chunk-JXXWBFBF.js:31696:22)
+    at NodePath.call (file:///Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/node_modules/storybook/dist/_node-chunks/chunk-JXXWBFBF.js:31686:22)
+    at NodePath.visit (file:///Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/node_modules/storybook/dist/_node-chunks/chunk-JXXWBFBF.js:31719:38)
+    at TraversalContext.visitQueue (file:///Users/Dine/Desktop/Fundamental-FED27/Praticals/JD-checklist/node_modules/storybook/dist/_node-chunks/chunk-JXXWBFBF.js:31605:49)
+[11:07:29.206] [ERROR] Error: Unable to index ./src/stories/Button.stories.ts
+    at _StoryIndexGenerator.getIndexAndStats (file://./node_modules/storybook/dist/core-server/index.js:6282:15)
+    at async _StoryIndexGenerator.getIndex (file://./node_modules/storybook/dist/core-server/index.js:6271:13)
+    at async Object.experimental_serverChannel (file://./node_modules/@storybook/addon-vitest/dist/preset.js:464:14)
+    at async buildDevStandalone (file://./node_modules/storybook/dist/core-server/index.js:8027:32)
+    at async withTelemetry (file://./node_modules/storybook/dist/_node-chunks/chunk-FIR43JGQ.js:225:12)
+    at async dev (file://./node_modules/storybook/dist/bin/core.js:2736:3)
+    at async _Command.<anonymous> (file://./node_modules/storybook/dist/bin/core.js:2806:92)
+[11:07:29.207] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
+[11:07:35.622] [PROMPT] Would you like to send anonymous crash reports to improve Storybook and fix bugs faster? {"choice":false}
